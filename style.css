@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {  
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex; 
+   
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: left;
+    font-size: 49px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
+.kartinka {
+    width: 300px;
+    position: relative;
+    top: 50px;
+    border-radius: 16px;
+    
+}
+
+.text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+} 
+   
+.perehod{
+font-family: "Playfair Display", serif;
+font-size: 30px;
+}

@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(116, 114, 114);
+    border: 1px solid black;
+}
+
+.box:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.palitra {
+    background-color: rgb(116, 114, 114);
+    border: 1px solid black;
+}
+
+.colorite {
+    width: 20px;
+    height: 20px;
+    
+}
